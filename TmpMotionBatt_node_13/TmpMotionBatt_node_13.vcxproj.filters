@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="DallasNode11.ino" />
+    <None Include="TmpMotionBatt_node_13.ino" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="__vm\.DallasNode11.vsarduino.h">
+    <ClInclude Include="__vm\.TmpMotionBatt_node_13.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

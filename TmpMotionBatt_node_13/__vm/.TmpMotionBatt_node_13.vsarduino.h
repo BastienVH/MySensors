@@ -85,6 +85,5 @@ extern "C" void __cxa_pure_virtual() {;}
 #define portOutputRegister(P)
 #define portInputRegister(P)
 #define portModeRegister(P)
-#include <..\DallasNode11\DallasNode11.ino>
-#include <..\DallasNode11\TempMotBattNode13.ino>
+#include <..\TmpMotionBatt_node_13\TmpMotionBatt_node_13.ino>
 #endif

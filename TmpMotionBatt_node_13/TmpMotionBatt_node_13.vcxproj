@@ -12,8 +12,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C5F80730-F44F-4478-BDAE-6634EFC2CA88}</ProjectGuid>
-    <RootNamespace>DallasNode11</RootNamespace>
-    <ProjectName>DallasNode11</ProjectName>
+    <RootNamespace>TmpMotionBatt_node_13</RootNamespace>
+    <ProjectName>TmpMotionBatt_node_13</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -45,10 +45,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>F:\Users\Bastien\Downloads\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\hardware\arduino\avr\cores\arduino;F:\Users\Bastien\Downloads\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\hardware\arduino\avr\variants\eightanaloginputs;C:\Users\Basti\Source\Repos\MySensors\DallasNode11;F:\Users\Bastien\Documents\Arduino-master\libraries\DallasTemperature;F:\Users\Bastien\Documents\Arduino-master\libraries\DallasTemperature\utility;F:\Users\Bastien\Documents\Arduino-master\libraries\MySensors;F:\Users\Bastien\Documents\Arduino-master\libraries\MySensors\utility;F:\Users\Bastien\Documents\Arduino-master\libraries\OneWire;F:\Users\Bastien\Documents\Arduino-master\libraries\OneWire\utility;F:\Users\Bastien\Downloads\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\hardware\arduino\avr\libraries\SPI;F:\Users\Bastien\Downloads\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\hardware\arduino\avr\libraries\SPI\utility;F:\Users\Bastien\Downloads\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\libraries;F:\Users\Bastien\Downloads\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\hardware\arduino\avr\libraries;F:\Program Files (x86)\Microsoft Visual Studio\Common7\IDE\Extensions\l1riipqz.bua\Micro Platforms\default\debuggers;F:\Users\Bastien\Documents\Arduino-master\libraries;F:\Users\Bastien\Downloads\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\hardware\tools\avr/avr/include/;F:\Users\Bastien\Downloads\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\hardware\tools\avr//avr/include/avr/;F:\Users\Bastien\Downloads\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>C:\Users\Basti\Source\Repos\MySensors\DallasNode11\__vm\.DallasNode11.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>F:\Users\Bastien\Downloads\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\hardware\arduino\avr\cores\arduino;F:\Users\Bastien\Downloads\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\hardware\arduino\avr\variants\eightanaloginputs;C:\Users\Basti\Source\Repos\MySensors\TmpMotionBatt_node_13;F:\Users\Bastien\Documents\Arduino-master\libraries\DallasTemperature;F:\Users\Bastien\Documents\Arduino-master\libraries\DallasTemperature\utility;F:\Users\Bastien\Documents\Arduino-master\libraries\MySensors;F:\Users\Bastien\Documents\Arduino-master\libraries\MySensors\utility;F:\Users\Bastien\Documents\Arduino-master\libraries\OneWire;F:\Users\Bastien\Documents\Arduino-master\libraries\OneWire\utility;F:\Users\Bastien\Downloads\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\hardware\arduino\avr\libraries\SPI;F:\Users\Bastien\Downloads\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\hardware\arduino\avr\libraries\SPI\utility;F:\Users\Bastien\Downloads\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\libraries;F:\Users\Bastien\Downloads\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\hardware\arduino\avr\libraries;F:\Program Files (x86)\Microsoft Visual Studio\Common7\IDE\Extensions\l1riipqz.bua\Micro Platforms\default\debuggers;F:\Users\Bastien\Documents\Arduino-master\libraries;F:\Users\Bastien\Downloads\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\hardware\tools\avr/avr/include/;F:\Users\Bastien\Downloads\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\hardware\tools\avr//avr/include/avr/;F:\Users\Bastien\Downloads\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\Users\Basti\Source\Repos\MySensors\TmpMotionBatt_node_13\__vm\.TmpMotionBatt_node_13.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
-      <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;F_CPU=16000000L;ARDUINO=10605;ARDUINO_AVR_NANO;ARDUINO_ARCH_AVR;__cplusplus=201103L;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;_VMDEBUG=1;F_CPU=16000000L;ARDUINO=10605;ARDUINO_AVR_NANO;ARDUINO_ARCH_AVR;__cplusplus=201103L;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -69,12 +69,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="DallasNode11.ino">
+    <None Include="TmpMotionBatt_node_13.ino">
       <FileType>CppCode</FileType>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="__vm\.DallasNode11.vsarduino.h" />
+    <ClInclude Include="__vm\.TmpMotionBatt_node_13.vsarduino.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
