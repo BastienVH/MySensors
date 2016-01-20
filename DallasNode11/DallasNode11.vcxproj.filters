@@ -16,6 +16,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="DallasNode11.ino" />
+    <None Include="TempMotBattNode13.ino" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.DallasNode11.vsarduino.h">

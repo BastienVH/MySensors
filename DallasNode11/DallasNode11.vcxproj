@@ -72,6 +72,7 @@
     <None Include="DallasNode11.ino">
       <FileType>CppCode</FileType>
     </None>
+    <None Include="TempMotBattNode13.ino" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.DallasNode11.vsarduino.h" />
