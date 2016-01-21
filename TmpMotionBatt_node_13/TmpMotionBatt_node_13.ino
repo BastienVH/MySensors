@@ -106,6 +106,12 @@ void loop()
 		gw.send(msgMot.set(tripped ? "1" : "0"));  // Send tripped value to gw 
 	}
 	else {
+		// Read digital motion value
+		boolean tripped = digitalRead(MOTION_INPUT_SENSOR) == HIGH;
+
+		Serial.println(tripped);
+		gw.send(msgMot.set(tripped ? "1" : "0"));  // Send tripped value to gw 
+
 		// get the battery Voltage
 		int sensorValue = analogRead(BATTERY_SENSE_PIN);
 #ifdef DEBUG
